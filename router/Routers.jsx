@@ -3,7 +3,7 @@ import Layout from "../pages/layout";
 import Page404 from "../pages/page404";
 import { useDispatch, useSelector } from "react-redux";
 import PageOne from "../pages/diagramsvg";
-import DiagramSVG from "../pages/diagramsvg";
+import DiagramSVG from "../pages/diagramsvg"
 const Routers = () => {
     const dispatch = useDispatch();
     const BasePath = import.meta.env.VITE_PATH;
